@@ -1,6 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #f9fafc;
+  margin: 20px;
 }
 
 ul {
@@ -27,17 +28,30 @@ a:active {
 
 /* indented text with bar on the left */
 .bio {
-  border-left: 3px solid #000;
+  border-left: 3px solid #69696a;
   padding-left: 1em;
   color: #69696a;
   margin-bottom: 2em;
 }
 
 button {
+  font-family: "Open Sans", sans-serif;
   background-color: #000;
   color: #fff;
   width: 100%;
   display: inline-block;
-  padding: 7px 0px;
+  padding: 10px 0px;
+  border: none;
   border-radius: 20px;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: #69696a;
+  border: none;
+}
+
+button:active {
+  background-color: rgb(191, 143, 255);
+  border: none;
 }
