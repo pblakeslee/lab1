@@ -27,7 +27,7 @@ a:active {
 }
 
 /* indented text with bar on the left */
-.bio {
+.description {
   border-left: 3px solid #69696a;
   padding-left: 1em;
   color: #69696a;
