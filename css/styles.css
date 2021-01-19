@@ -1,4 +1,15 @@
-/* this is a test to see if the syle sheet is linked */
-p {
-  background-color: blue;
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f9fafc;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  color: #69696a;
+}
+
+.bio {
+  border-left: 3px solid #000;
+  padding-left: 1em;
 }
