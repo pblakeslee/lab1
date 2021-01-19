@@ -6,20 +6,38 @@ body {
 ul {
   list-style-type: none;
   padding-left: 0;
-  color: #69696a;
   margin: 10px 0;
 }
 
 li {
   margin: 7px 0;
 }
+a {
+  text-decoration: none;
+  color: #69696a;
+}
 
+a:hover {
+  color: #000;
+}
+
+a:active {
+  color: rgb(191, 143, 255);
+}
+
+/* indented text with bar on the left */
 .bio {
   border-left: 3px solid #000;
   padding-left: 1em;
+  color: #69696a;
+  margin-bottom: 2em;
 }
 
 button {
   background-color: #000;
   color: #fff;
+  width: 100%;
+  display: inline-block;
+  padding: 7px 0px;
+  border-radius: 20px;
 }
