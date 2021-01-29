@@ -98,6 +98,7 @@ button:active {
     margin: 100px 0;
   }
 
+  /* splits flexbox in 50% containers */
   .container {
     flex-grow: 1;
     flex-basis: 50%;
@@ -115,7 +116,7 @@ button:active {
   .circle {
     visibility: visible;
     border-radius: 100%;
-    position: fixed;
+    position: absolute;
   }
   .circle.pink {
     background-color: rgba(247, 136, 167, 0.6);
