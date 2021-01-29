@@ -18,6 +18,10 @@ li {
   margin: 7px 0;
 }
 
+.circle {
+  visibility: hidden;
+}
+
 /* anchor state styling */
 a {
   text-decoration: none;
@@ -64,6 +68,7 @@ button:active {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  /* top section */
   header {
     display: flex;
     justify-content: space-between;
@@ -87,10 +92,49 @@ button:active {
     padding: 5px 10px;
     margin: 0;
   }
+
+  main {
+    display: flex;
+    margin: 100px 0;
+  }
+
+  .container {
+    flex-grow: 1;
+    flex-basis: 50%;
+  }
+
+  /* scroll down button at the bottom */
   .fixed-button {
     position: fixed;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
+  }
+
+  /* circle styling */
+  .circle {
+    visibility: visible;
+    border-radius: 100%;
+    position: fixed;
+  }
+  .circle.pink {
+    background-color: rgba(247, 136, 167, 0.6);
+    width: 250px;
+    height: 250px;
+    right: 80px;
+  }
+  .circle.purple {
+    background-color: rgba(207, 130, 213, 0.6);
+    width: 100px;
+    height: 100px;
+    right: 20px;
+    top: 200px;
+  }
+  .circle.orange {
+    background-color: rgba(247, 193, 162, 0.7);
+    width: 150px;
+    height: 150px;
+    right: 20px;
+    top: 280px;
   }
 }
